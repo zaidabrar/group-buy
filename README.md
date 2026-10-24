@@ -10,6 +10,15 @@ earns 0.5–1% of the on-road price (+18% GST) from the dealer on each **deliver
 Stack: Next.js 15 (App Router) · TypeScript · Tailwind + shadcn-style components · PostgreSQL (`pg`, plain SQL) ·
 Razorpay · phone OTP (console in dev, MSG91 in prod) · Vitest.
 
+## Try it in your browser (no install)
+
+1. On the GitHub repo page click **Code → Codespaces → Create codespace on main**.
+2. Wait ~3 minutes while it installs and seeds the demo data.
+3. The app opens in a new tab (or open the **Ports** tab and click the globe next to port 3000).
+   If it doesn't load yet, give it 20 more seconds or run `npm run dev` in the terminal.
+
+Log in with any demo number below; the OTP is shown right on the login screen.
+
 ## Run it locally
 
 ```bash
