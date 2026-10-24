@@ -13,7 +13,6 @@ Razorpay · phone OTP (console in dev, MSG91 in prod) · Vitest.
 ## Run it locally
 
 ```bash
-cd group-car-buying
 npm install
 cp .env.example .env            # set DATABASE_URL + SESSION_SECRET
 createdb groupcar                # or any empty Postgres 14+ database
