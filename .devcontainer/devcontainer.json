@@ -3,10 +3,15 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-  "forwardPorts": [3000],
+  "forwardPorts": [
+    3000
+  ],
   "portsAttributes": {
-    "3000": { "label": "Saath Gaadi app", "onAutoForward": "openBrowser" }
+    "3000": {
+      "label": "Saath Gaadi app",
+      "onAutoForward": "openBrowser"
+    }
   },
   "postCreateCommand": "bash .devcontainer/setup.sh",
-  "postStartCommand": "nohup npm run dev > /tmp/next-dev.log 2>&1 &"
+  "postAttachCommand": "npm run dev"
 }
